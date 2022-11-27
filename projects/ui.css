@@ -1,0 +1,36 @@
+@font-face {
+    font-family: pro;
+    src: url(/Product.ttf);
+}
+body {background-color: #00001D;}
+.navbar {
+    background: none;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+.navbar a {
+    color: white;
+    font-family: pro;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.big-header {
+    color: pink;
+    margin: 5px;
+    font-size: 50px;
+    font-family: pro;
+}
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+@font-face {
+    font-family: pro;
+    src: url(Product.ttf);
+}
+body {
+    background-color: #00001D;
+    background-image: url(/assets/bg.gif);
+    background-size: scale-to-fit;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: white;
+    font-family: pro;
+}
+.main {
+    margin-top: 2%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.navbar {
+    background: none;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+.navbar a {
+    color: white;
+    font-family: pro;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.about {
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+}
+.small-header{
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+}
+.big-header {
+    color: pink;
+    margin: 5px;
+    font-size: 50px;
+}
+.desc {
+    color: #FFFFF0;
+    font-family: pro;
+    font-size: 20px;
+}
+.social {
+    bottom: 0;
+    position: fixed;
+}
+.social a {
+    text-decoration: none;
+    transition: all .2s ease-in-out; 
+}
+.social a:hover {
+    transform: scale(1.1); 
+}
