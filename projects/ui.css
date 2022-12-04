@@ -2,7 +2,7 @@
     font-family: pro;
     src: url(/Product.ttf);
 }
-body {background-color: #00001D;}
+body {background-color: #1e1e1e;}
 .navbar {
     background: none;
     position: fixed;
@@ -33,4 +33,20 @@ body {background-color: #00001D;}
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.main a {padding: 10px;}
+.main button {
+    background-color: #303030;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all .2s ease-in-out;
+}
+.main button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.main h1 {
+    color: #ffc0cb;
+    font-size: 20px;
 }
